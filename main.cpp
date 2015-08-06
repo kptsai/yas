@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
     
     
     yasdb yas;
-    yas.connect("localhost:27017", "yasadmin", "y@sword");
+    
     BSONObjBuilder b;
     b.append("user","yasadmin");
     b.append("pwd","y@sword");
